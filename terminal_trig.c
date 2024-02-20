@@ -23,7 +23,7 @@ double f(int x) {
 }
 
 
-// print trig finction in horizontal space
+// print trig function in horizontal space
 void print_fx(int width, int height) {
     
     int brightness_index;
