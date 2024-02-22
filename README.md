@@ -15,8 +15,18 @@ constant in order to better fit the screen.
 
 ## `factorial()`
 
+
+
 ## `f()`
+
+> Defines the *mathematical* function you want to apply to $x$ or $y$
+
+In this case, the equation is $sin(x)$
 
 ## `print_fx()`
 
+
+
 ## `print_fy()`
+
+
