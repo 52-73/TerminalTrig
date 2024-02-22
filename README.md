@@ -9,6 +9,8 @@ gcc -o terminal_trig terminal_trig.c
 
 ## Documentation
 
+Let's start of by saying I know the code could be better.
+
 In it's current state, there are two main functions within the program; `print_fx()` and `print_fy()`, which respectively print f(x) and f(y) respectively to the terminal screen in 
 ASCII code (or rather, the inequality region below f(x) or f(y)). Both of these utilise the same `f()` function declared earlier, which in this case is `sin(x)`, multiplied by a 
 constant in order to better fit the screen.
@@ -31,7 +33,8 @@ In this case, the equation is $sin(x)$, multiplied by some constants in order to
 
 Can't really be bothered to explain what's going on exactly right now, you'll probably be able to work it out anyway. In essence, it:
 -Iterates through the specified width and height values, where $x$ values are columns and $y$ values are rows
--Prints an ASCII character or a space based on the inequality of $y<=f(x)$, meaning ASCII values are only printed where the inequality is `true`
+-Prints an lighter or darker ASCII character based on the inequality of $y<=f(x)$, creating a contrast between sides of the equation
+-Can optionally leaves spaces on the exact line of the equation, to outline where it is, though due to the limited precision of ASCII characters, this only works so well
 -Prints a gradient of ASCII characters based on the current point's $(x, y)$ coordinates
 -and randomises the gradient by picking a random ASCII character from the 3 nearest the brightness of the originally predicted ASCII character in the previous bullet, giving a randomised, yet still clearly calculated feel.
 
