@@ -13,19 +13,19 @@ In it's current state, there are two main functions within the program; `print_f
 ASCII code (or rather, the inequality region below f(x) or f(y)). Both of these utilise the same `f()` function declared earlier, which in this case is `sin(x)`, multiplied by a 
 constant in order to better fit the screen.
 
-## `factorial()`
+### `factorial()`
 
 >A rudimentary definition of a factorial function.
 
 I only created this to see what factorial would look like graphed in ASCII. Didn't work out so well.
 
-## `f()`
+### `f()`
 
 > Defines the *mathematical* function you want to apply to $x$ or $y$
 
 In this case, the equation is $sin(x)$, multiplied by some constants in order to scale to an appropriate size to fit the screen.
 
-## `print_fx()`
+### `print_fx()`
 
 > Uses `f()` as $f(x)$, and thus prints $f(x)$ in the terminal.
 
@@ -35,7 +35,7 @@ Can't really be bothered to explain what's going on exactly right now, you'll pr
 -Prints a gradient of ASCII characters based on the current point's $(x, y)$ coordinates
 -and randomises the gradient by picking a random ASCII character from the 3 nearest the brightness of the originally predicted ASCII character in the previous bullet, giving a randomised, yet still clearly calculated feel.
 
-## `print_fy()`
+### `print_fy()`
 
 > Uses `f()` as $f(y)$, and thus prints $f(y)$ in the terminal.
 
