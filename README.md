@@ -32,11 +32,11 @@ In this case, the equation is $sin(x)$, multiplied by some constants in order to
 > Uses `f()` as $f(x)$, and thus prints $f(x)$ in the terminal.
 
 Can't really be bothered to explain what's going on exactly right now, you'll probably be able to work it out anyway. In essence, it:
--Iterates through the specified width and height values, where $x$ values are columns and $y$ values are rows
--Prints an lighter or darker ASCII character based on the inequality of $y<=f(x)$, creating a contrast between sides of the equation
--Can optionally leaves spaces on the exact line of the equation, to outline where it is, though due to the limited precision of ASCII characters, this only works so well
--Prints a gradient of ASCII characters based on the current point's $(x, y)$ coordinates
--and randomises the gradient by picking a random ASCII character from the 4 (as specified by the `variance` variable) nearest the brightness of the originally predicted ASCII character in the previous bullet, giving a randomised, yet still clearly calculated feel.
+- Iterates through the specified width and height values, where $x$ values are columns and $y$ values are rows
+- Prints an lighter or darker ASCII character based on the inequality of $y<=f(x)$, creating a contrast between sides of the equation
+- Can optionally leaves spaces on the exact line of the equation, to outline where it is, though due to the limited precision of ASCII characters, this only works so well
+- Prints a gradient of ASCII characters based on the current point's $(x, y)$ coordinates
+- and randomises the gradient by picking a random ASCII character from the 4 (as specified by the `variance` variable) nearest the brightness of the originally predicted ASCII character in the previous bullet, giving a randomised, yet still clearly calculated feel.
 
 ### `print_fy()`
 
