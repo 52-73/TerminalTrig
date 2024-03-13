@@ -17,7 +17,7 @@ constant in order to better fit the screen.
 
 ### `factorial()`
 
->A rudimentary definition of a factorial function.
+> A rudimentary definition of a factorial function.
 
 I only created this to see what factorial would look like graphed in ASCII. Didn't work out so well.
 
